@@ -1,19 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import styled from "styled-components";
 
-
 class Main extends Component {
-  render() {
-    return (
-      <MainWrapper>
-        MAIN COMPONENT
-      </MainWrapper>
-    )
-  }
+	render() {
+		return <MainWrapper>MAIN COMPONENT</MainWrapper>;
+	}
 }
 
 const MainWrapper = styled.div`
-  background: red;
-`
+	background: red;
+`;
 
 export default Main;
